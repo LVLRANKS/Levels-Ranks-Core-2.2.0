@@ -1,0 +1,510 @@
+"Phrases"
+{
+	// Все цвета :
+	// 1) {DEF} = Белый
+	// 2) {TEAM} = Командный
+	// 3) {RED} = Красный
+	// 4) {GREEN} = Зеленый
+	// 5) {LIME} = Лайм
+	// 6) {LIGHTGREEN} = Светло-Зеленый
+	// 7) {LIGHTRED} = Светло-Красный
+	// 8) {GRAY} = Серый
+	// 9) {LIGHTOLIVE} = Светло-Оливковый
+	// 10) {OLIVE} = Оливковый
+	// 11) {LIGHTBLUE} = Светло-Синий
+	// 12) {BLUE} = Синий
+	// 13) {PURPLE} = Фиолетовый
+
+	"MainMenu_Exp"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:i},{5:i}"
+		"en"		"{1}\n \n{2}\nExp: {3}\nPlace: {4} of {5}"
+		"pl"		"{1}\n \n{2}\nExp: {3}\nMiejsce: {4} of {5}"
+		"ru"		"{1}\n \n{2}\nОпыт: {3}\nМесто: {4} из {5}"
+		"ua"		"{1}\n \n{2}\nДосвід: {3}\nМісце: {4} із {5}"
+	}
+	"MainMenu_Time"
+	{
+		"#format"	"{1:s},{2:s},{3:02d},{4:02d},{5:02d},{6:i},{7:i}"
+		"en"		"{1}\n \n{2}\nCounter: {3}:{4}:{5} sec\nPlace: {6} of {7}"
+		"pl"		"{1}\n \n{2}\nLicznik: {3}:{4}:{5} sec\nMiejsce: {6} of {7}"
+		"ru"		"{1}\n \n{2}\nСчетчик: {3}:{4}:{5} сек\nМесто: {6} из {7}"
+		"ua"		"{1}\n \n{2}\nЛічильник: {3}:{4}:{5} сек\nМісце: {6} із {7}"
+	}
+	"MainMenu_None"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1}\n \n{2}\nExp: {3}"
+		"pl"		"{1}\n \n{2}\nExp: {3}"
+		"ru"		"{1}\n \n{2}\nОпыт: {3}"
+		"ua"		"{1}\n \n{2}\nДосвід: {3}"
+	}
+	"MainMenu_Rank"
+	{
+		"#format"	"{1:s}"
+		"en"		"Rank: {1}"
+		"pl"		"Ranking: {1}"
+		"ru"		"Звание: {1}"
+		"ua"		"Звання: {1}"
+	}
+	"MainMenu_VIP"
+	{
+		"#format"	"{1:s}"
+		"en"		"VIP-status: {1}"
+		"pl"		"VIP-status: {1}"
+		"ru"		"VIP-статус: {1}"
+		"ua"		"VIP-статус: {1}"
+	}
+	"AllRanks"
+	{
+		"en"		"All Ranks"
+		"pl"		"Wszystkie Rangi"
+		"ru"		"Все Звания"
+		"ua"		"Всі Звання"
+	}
+	"TOP"
+	{
+		"en"		"TOP Players"
+		"pl"		"Czołowi Gracze"
+		"ru"		"TOP Игроков"
+		"ua"		"TOP Гравців"
+	}
+	"Inventory"
+	{
+		"en"		"Inventory"
+		"pl"		"Ekwipunek"
+		"ru"		"Инвентарь"
+		"ua"		"Інвентар"
+	}
+	"FullMyStats"
+	{
+		"en"		"Statistic"
+		"pl"		"Statystyki"
+		"ru"		"Статистика"
+		"ua"		"Статистика"
+	}
+	"MainAdminMenu"
+	{
+		"en"		"Admin's Panel"
+		"pl"		"Panel Admina"
+		"ru"		"Панель администратора"
+		"ua"		"Панель адміністратора"
+	}
+	"GiveTakeExp"
+	{
+		"en"		"Give/Take Exp"
+		"pl"		"Daj/Weź Exp"
+		"ru"		"Выдать/Забрать Опыт"
+		"ua"		"Видати/Забрати Досвід"
+	}
+	"GiveTakeTime"
+	{
+		"en"		"Give/Take Time (min.)"
+		"pl"		"Daj/Weź Czas (min.)"
+		"ru"		"Выдать/Забрать время (мин.)"
+		"ua"		"Видати/Забрати час (хв.)"
+	}
+	"ResetPlayerStats"
+	{
+		"en"		"Reset Player Statistics"
+		"pl"		"Zresetuj Statystyki Gracza"
+		"ru"		"Обнулить статистику игрока"
+		"ua"		"Обнулити статистику гравця"
+	}
+	"TOPCount"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"en"		"Back to top {1} - {2} (total: {3})"
+		"pl"		"Wróć na górę {1} - {2} (wszystkie: {3})"
+		"ru"		"В начало {1} - {2} (всего: {3})"
+		"ua"		"На початок {1} - {2} (всього: {3})"
+	}
+	"RankPlayer"
+	{
+		"#format"	"{1:N},{2:i},{3:i},{4:i},{5:i},{6:i},{7:.2f}"
+		"en"		"{RED}[LR] {DEF}Player {GREEN}{1} {DEF}is ranked at {GREEN}{2} / {3} {DEF}with {OLIVE}{4} {DEF}exp, {OLIVE}{5} {DEF}kills, {OLIVE}{6} {DEF}deaths и KDR {OLIVE}{7}"
+		"pl"		"{RED}[LR] {DEF}Player {GREEN}{1} {DEF}is ranked at {GREEN}{2} / {3} {DEF}with {OLIVE}{4} {DEF}exp, {OLIVE}{5} {DEF}kills, {OLIVE}{6} {DEF}deaths и KDR {OLIVE}{7}"
+		"ru"		"{RED}[LR] {DEF}Игрок {GREEN}{1} {DEF}на {GREEN}{2} / {3} {DEF}месте, с {OLIVE}{4} {DEF}очками, {OLIVE}{5} {DEF}убийствами, {OLIVE}{6} {DEF}смертями и KDR {OLIVE}{7}"
+		"ua"		"{RED}[LR] {DEF}Игрок {GREEN}{1} {DEF}на {GREEN}{2} / {3} {DEF}месте, с {OLIVE}{4} {DEF}очками, {OLIVE}{5} {DEF}вбиствами, {OLIVE}{6} {DEF}смертями и KDR {OLIVE}{7}"
+	}
+	"Back"
+	{
+		"en"		"Back"
+		"pl"		"Wróć"
+		"ru"		"Назад"
+		"ua"		"Назад"
+	}
+	"Next"
+	{
+		"en"		"Next"
+		"pl"		"Następny"
+		"ru"		"Вперед"
+		"ua"		"Вперед"
+	}
+	"FullStats"
+	{
+		"#format"	"{1:s},{2:i},{3:i},{4:i},{5:i},{6:i},{7:.2f},{8:i},{9:i},{10:i}"
+		"en"		"{1} | My Stats\n \nKills: {2} \nDeaths: {3} \nAssists: {4} \nHeadshots: {5} [{6} %%] \nKills/Deaths: {7} \n \nShoots: {8} \nHits: {9} [{10} %%]"
+		"pl"		"{1} | Moje statystyki\n \nKille: {2} \nŚmierci: {3} \nAsysty: {4} \nHeadshoty: {5} [{6} %%] \nKille/Śmierci: {7} \n \nStrzały: {8} \nTrafienia: {9} [{10} %%]"
+		"ru"		"{1} | Моя статистика\n \nУбийств: {2} \nСмертей: {3} \nАссистов: {4} \nХедшотов: {5} [{6} %%] \nУбийства/Смерти: {7} \n \nВыстрелов: {8} \nПопаданий: {9} [{10} %%]"
+		"ua"		"{1} | Моя статистика\n \nВбиств: {2} \nСмертей: {3} \nАссистів: {4} \nВ голову: {5} [{6} %%] \nВбиства/Смерті: {7} \n \nВистрелів: {8} \nПопадань: {9} [{10} %%]"
+	}
+	"FullStatsTF2"
+	{
+		"#format"	"{1:s},{2:i},{3:i},{4:i},{5:.2f}"
+		"en"		"{1} | My Stats\n \nKills: {2} \nDeaths: {3} \nAssists: {4} \nKills/Deaths: {5}"
+		"pl"		"{1} | Moje statystyki\n \nKille: {2} \nŚmierci: {3} \nAsysty: {4} \nKille/Śmierci: {5}"
+		"ru"		"{1} | Моя статистика\n \nУбийств: {2} \nСмертей: {3} \nАссистов: {4} \nУбийства/Смерти: {5}"
+		"ua"		"{1} | Моя статистика\n \nВбиств: {2} \nСмертей: {3} \nАссистів: {4} \nВбиства/Смерті: {5}"
+	}
+	"ResetMyStatsMenu"
+	{
+		"en"		"Reset the statistics?\n \nYou reset all your options, \nlevels, frags and the like. \nYou are sure?"
+		"pl"		"Zresetuj Statystyki?\n \nTy zresetuj swoje wszystkie opcje, \npoziomy, Fragi i szczescie. \nJesteś pewny?"
+		"ru"		"Обнулить статистику?\n \nВы обнулите все свои параметры, \nуровни, фраги и тому подобное. \nВы точно уверены?"
+		"ua"		"Обнулити статистику?\n \nВи обнулите всі свої параметри, \nрівні, фраги і тому подібне. \nВи точно впевнені?"
+	}
+	"VIPGive"
+	{
+		"en"		"Give VIP"
+		"pl"		"Daj VIP"
+		"ru"		"Выдать VIP-статус"
+		"ua"		"Видати VIP-статус"
+	}
+	"VIPTake"
+	{
+		"en"		"Take VIP"
+		"pl"		"Weź VIP"
+		"ru"		"Забрать VIP-статус"
+		"ua"		"Забрати VIP-статус"
+	}
+	"Yes"
+	{
+		"en"		"Yes"
+		"pl"		"Tak"
+		"ru"		"Да"
+		"ua"		"Так"
+	}
+	"No"
+	{
+		"en"		"No"
+		"pl"		"Nie"
+		"ru"		"Нет"
+		"ua"		"Ні"
+	}
+	"VIPAddTime"
+	{
+		"en"		"Extend the VIP"
+		"pl"		"Zwiększ czas VIP"
+		"ru"		"Продлить VIP-статус"
+		"ua"		"Продовжити VIP-статус"
+	}
+	"VIPGroupChoose"
+	{
+		"en"		"Select VIP-group"
+		"pl"		"Wybierz grupę VIP'a"
+		"ru"		"Выберите VIP-группу"
+		"ua"		"Выберіть VIP-групу"
+	}
+	"ResetMyStats"
+	{
+		"en"		"Reset My Stats"
+		"pl"		"Zresetuj swoje statystyki"
+		"ru"		"Обнулить мою статистику"
+		"ua"		"Обнулити мою статистику"
+	}
+	"VIPAdded"
+	{
+		"#format"	"{1:N},{2:i}"
+		"en"		"{RED}[LR] {GREEN}{1} {DEF}received a VIP for {PURPLE}{2} {DEF}days"
+		"pl"		"{RED}[LR] {GREEN}{1} {DEF}otrzymaj VIP za {PURPLE}{2} {DEF}dni"
+		"ru"		"{RED}[LR] {GREEN}{1} {DEF}получил VIP-статус на {PURPLE}{2} {DEF}дней"
+		"ua"		"{RED}[LR] {GREEN}{1} {DEF}отримав VIP-статус на {PURPLE}{2} {DEF}днів"
+	}
+	"VIPChange"
+	{
+		"#format"	"{1:N},{2:i}"
+		"en"		"{RED}[LR] {DEF}VIP {GREEN}{1} {DEF}extended for {PURPLE}{2} {DEF}days"
+		"pl"		"{RED}[LR] {DEF}VIP {GREEN}{1} {DEF}Poszerz za {PURPLE}{2} {DEF}dni"
+		"ru"		"{RED}[LR] {DEF}VIP-статус {GREEN}{1} {DEF}продлен на {PURPLE}{2} {DEF}дней"
+		"ua"		"{RED}[LR] {DEF}VIP-статус {GREEN}{1} {DEF}продовжено на {PURPLE}{2} {DEF}днів"
+	}
+	"RoundStartCheckCount"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"{RED}[LR] {DEF}There are only {RED}{1} {DEF}players from {RED}{2}"
+		"pl"		"{RED}[LR] {DEF}Tam są tylko {RED}{1} {DEF}gracze z {RED}{2}"
+		"ru"		"{RED}[LR] {DEF}Присутствует только {RED}{1} {DEF}игрока из {RED}{2}"
+		"ua"		"{RED}[LR] {DEF}Присутні тільки {RED}{1} {DEF}гравця із {RED}{2}"
+	}
+	"RoundStartMessageRanks"
+	{
+		"#format"	"{1:s}"
+		"en"		"{RED}[LR] {DEF}Enter: {PURPLE}{1} {DEF}- main menu"
+		"pl"		"{RED}[LR] {DEF}Enter: {PURPLE}{1} {DEF}- Główne Menu"
+		"ru"		"{RED}[LR] {DEF}Введи: {PURPLE}{1} {DEF}- главное меню"
+		"ua"		"{RED}[LR] {DEF}Введи: {PURPLE}{1} {DEF}- головне меню"
+	}
+	"LevelUp"
+	{
+		"#format"	"{1:s}"
+		"en"		"{RED}[LR] {DEF}Your rank has been promoted to {LIME}{1}"
+		"pl"		"{RED}[LR] {DEF}Twój ranking został awansowany do {LIME}{1}"
+		"ru"		"{RED}[LR] {DEF}Вы повышены в звании до {LIME}{1}"
+		"ua"		"{RED}[LR] {DEF}Ви підвищені в званні до {LIME}{1}"
+	}
+	"LevelDown"
+	{
+		"#format"	"{1:s}"
+		"en"		"{RED}[LR] {DEF}Your rank has been lowered to {RED}{1}"
+		"pl"		"{RED}[LR] {DEF}Twój ranking został zmniejszony do {RED}{1}"
+		"ru"		"{RED}[LR] {DEF}Вы понижены в звании до {RED}{1}"
+		"ua"		"{RED}[LR] {DEF}Ви знижені в званні до {RED}{1}"
+	}
+	"Message_Hook_Exp"
+	{
+		"en"		"{RED}[LR] {DEF}Your exp"
+		"pl"		"{RED}[LR] {DEF}Twój exp"
+		"ru"		"{RED}[LR] {DEF}Ваш опыт"
+		"ua"		"{RED}[LR] {DEF}Ваш досвід"
+	}
+	"Message_Hook_Time"
+	{
+		"en"		"{RED}[LR] {DEF}Your counter"
+		"pl"		"{RED}[LR] {DEF}Twój Counter"
+		"ru"		"{RED}[LR] {DEF}Ваш счетчик"
+		"ua"		"{RED}[LR] {DEF}Ваш лічильник"
+	}
+	"Suicide"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {RED}{2} [-{3} for suicide]"
+		"pl"		"{1} {RED}{2} [-{3} za samobójstwo]"
+		"ru"		"{1} {RED}{2} [-{3} за самоубийство]"
+		"ua"		"{1} {RED}{2} [-{3} за самогубство]"
+	}
+	"Kill"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {GREEN}{2} [+{3} for a kill]"
+		"pl"		"{1} {GREEN}{2} [+{3} za killa]"
+		"ru"		"{1} {GREEN}{2} [+{3} за убийство]"
+		"ua"		"{1} {GREEN}{2} [+{3} за вбивство]"
+	}
+	"MyDeath"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {RED}{2} [-{3} for dying]"
+		"pl"		"{1} {RED}{2} [-{3} za śmierć]"
+		"ru"		"{1} {RED}{2} [-{3} за вашу смерть]"
+		"ua"		"{1} {RED}{2} [-{3} за вашу смерть]"
+	}
+	"HeadShotKill"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for a headshot]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za headshota]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за убийство в голову]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за вбивство в голову]"
+	}
+	"AssisterKill"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {BLUE}{2} [+{3} for an assist]"
+		"pl"		"{1} {BLUE}{2} [+{3} za assystę]"
+		"ru"		"{1} {BLUE}{2} [+{3} за помощь в убийстве]"
+		"ua"		"{1} {BLUE}{2} [+{3} за допомогу у вбивстві]"
+	}
+	"RoundWin"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {GREEN}{2} [+{3} your team won]"
+		"pl"		"{1} {GREEN}{2} [+{3} Twoja drużyna wygrała]"
+		"ru"		"{1} {GREEN}{2} [+{3} ваша команда выиграла]"
+		"ua"		"{1} {GREEN}{2} [+{3} ваша команда виграла]"
+	}
+	"RoundLose"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {RED}{2} [-{3} your team lost]"
+		"pl"		"{1} {RED}{2} [-{3} Twoja drużyna przegrała]"
+		"ru"		"{1} {RED}{2} [-{3} ваша команда проиграла]"
+		"ua"		"{1} {RED}{2} [-{3} ваша команда програла]"
+	}
+	"RoundMVP"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {BLUE}{2} [+{3} MVP]"
+		"pl"		"{1} {BLUE}{2} [+{3} MVP]"
+		"ru"		"{1} {BLUE}{2} [+{3} MVP]"
+		"ua"		"{1} {BLUE}{2} [+{3} MVP]"
+	}
+	"BombPlanted"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {GREEN}{2} [+{3} for planting the bomb]"
+		"pl"		"{1} {GREEN}{2} [+{3} za zaplantowanie bomby]"
+		"ru"		"{1} {GREEN}{2} [+{3} установка бомбы]"
+		"ua"		"{1} {GREEN}{2} [+{3} встановлення бомби]"
+	}
+	"BombDefused"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {GREEN}{2} [+{3} for defusing the bomb]"
+		"pl"		"{1} {GREEN}{2} [+{3} za rozbrojenie bomby]"
+		"ru"		"{1} {GREEN}{2} [+{3} разминирование бомбы]"
+		"ua"		"{1} {GREEN}{2} [+{3} размінування бомби]"
+	}
+	"BombPickup"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {GREEN}{2} [+{3} for bomb pickup]"
+		"pl"		"{1} {GREEN}{2} [+{3} za podniesienie bomby]"
+		"ru"		"{1} {GREEN}{2} [+{3} подобрали бомбу]"
+		"ua"		"{1} {GREEN}{2} [+{3} підняли бомбу]"
+	}
+	"BombDropped"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {RED}{2} [-{3} for dropping the bomb]"
+		"pl"		"{1} {RED}{2} [-{3} za wyrzucenie bomby]"
+		"ru"		"{1} {RED}{2} [-{3} потеряли бомбу]"
+		"ua"		"{1} {RED}{2} [-{3} втратили бомбу]"
+	}
+	"HostageRescued"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {GREEN}{2} [+{3} you rescued the hostage]"
+		"pl"		"{1} {GREEN}{2} [+{3} ocaliłeś zakładnika]"
+		"ru"		"{1} {GREEN}{2} [+{3} вы спасли заложника]"
+		"ua"		"{1} {GREEN}{2} [+{3} ви врятували заручника]"
+	}
+	"HostageKilled"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {RED}{2} [-{3} you killed the hostage]"
+		"pl"		"{1} {RED}{2} [-{3} zabiłeś zakładnika]"
+		"ru"		"{1} {RED}{2} [-{3} вы убили заложника]"
+		"ua"		"{1} {RED}{2} [-{3} ви вбили заручника]"
+	}
+	"DoubleKill"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for DoubleKill]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za Podwójne Zabicie]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за DoubleKill]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за DoubleKill]"
+	}
+	"TripleKill"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for TripleKill]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za Potrójne Zabicie]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за TripleKill]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за TripleKill]"
+	}
+	"Domination"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for Domination]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za Dominacja]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за Domination]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за Domination]"
+	}
+	"Rampage"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for Rampage]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za Rampage]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за Rampage]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за Rampage]"
+	}
+	"MegaKill"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for MegaKill]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za MegaKill]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за MegaKill]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за MegaKill]"
+	}
+	"Ownage"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for Ownage]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za Ownage]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за Ownage]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за Ownage]"
+	}
+	"UltraKill"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for UltraKill]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za UltraKill]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за UltraKill]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за UltraKill]"
+	}
+	"KillingSpree"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for Killing Spree]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za Seria Zabójstw]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за Killing Spree]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за Killing Spree]"
+	}
+	"MonsterKill"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for MonsterKill]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za MonsterKill]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за MonsterKill]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за MonsterKill]"
+	}
+	"Unstoppable"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for Unstoppable]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za Niepowstrzymany]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за Unstoppable]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за Unstoppable]"
+	}
+	"GodLike"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for God Like]"
+		"pl"		"{1} {OLIVE}{2} [+{3} Na Boga jak]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за God Like]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за God Like]"
+	}
+	"WickedSick"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for WickedSick]"
+		"pl"		"{1} {OLIVE}{2} [+{3} for WickedSick]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за WickedSick]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за WickedSick]"
+	}
+	"HolyShit"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {OLIVE}{2} [+{3} for HolyShit]"
+		"pl"		"{1} {OLIVE}{2} [+{3} za Jasna cholera]"
+		"ru"		"{1} {OLIVE}{2} [+{3} за HolyShit]"
+		"ua"		"{1} {OLIVE}{2} [+{3} за HolyShit]"
+	}
+	"ValueGive"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {GRAY}{2} [+{3} from the admin]"
+		"pl"		"{1} {GRAY}{2} [+{3} od admina]"
+		"ru"		"{1} {GRAY}{2} [+{3} от Админа]"
+		"ua"		"{1} {GRAY}{2} [+{3} від Адміна]"
+	}
+	"ValueTake"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {GRAY}{2} [-{3} from the admin]"
+		"pl"		"{1} {GRAY}{2} [-{3} od admina]"
+		"ru"		"{1} {GRAY}{2} [-{3} от Админа]"
+		"ua"		"{1} {GRAY}{2} [-{3} від Адміна]"
+	}
+}
